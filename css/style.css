@@ -203,7 +203,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 	margin-top: 100px;
 }
 #about img {
-	float: right;
+	float: left;
 }
 #about p {
 	margin-bottom: 10px;
