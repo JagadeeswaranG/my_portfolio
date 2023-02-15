@@ -227,6 +227,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 #portfolio h2 {
 	color: #54d0dd;
 }
+.project-content{
+	color: white;
+}
+.project-content p{
+	font-size: medium;
+}
 .categories {
 	padding-bottom: 30px;
 	text-align: center;
@@ -284,7 +290,7 @@ ol.type li a:hover {
 	transition-property: transform, opacity;
 }
 .portfolio-item {
-	margin: 15px 0;
+	margin: 20px 20px;
 	-webkit-transition: all 0.5s ease-out;
 	-moz-transition: all 0.5s ease-out;
 	-ms-transition: all 0.5s ease-out;
@@ -302,6 +308,10 @@ ol.type li a:hover {
 	height: 195px;
 	overflow: hidden;
 	position: relative;
+	color: black;
+}
+.portfolio-item .hover-bg .bottom-left{
+	position: absolute;
 }
 .hover-bg .hover-text {
 	position: absolute;
@@ -309,7 +319,7 @@ ol.type li a:hover {
 	margin: 0 auto;
 	color: #ffffff;
 	background: rgba(0, 0, 0, 0.66);
-	padding: 30% 0 0 0;
+	padding: 20% 0 0 0;
 	height: 100%;
 	width: 100%;
 	opacity: 0;
